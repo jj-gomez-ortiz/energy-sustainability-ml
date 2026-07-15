@@ -9,7 +9,15 @@ Machine Learning project exploring global energy consumption and CO₂ emissions
 
 Using public datasets, this project combines exploratory data analysis (EDA), statistical diagnostics and predictive modelling to identify the key drivers of carbon emissions and primary energy consumption.
 
-Originally developed as my Bachelor's Thesis in Mechanical Engineering at the **University of Malaga**, this repository has been refactored into a professional Data Science portfolio project.
+---
+
+# 🎓 About this Project
+
+This repository is based on my Bachelor's Thesis completed as part of the Mechanical Engineering degree at the **University of Malaga (Spain)**.
+
+The thesis was awarded a final grade of **9.0/10 (Excellent)** by a faculty examination committee composed of PhD academics.
+
+Rather than simply uploading the thesis document, this repository restructures the work into a professional, reproducible and continuously evolving Data Science project following software engineering and open-source best practices. 
 
 ---
 
@@ -19,7 +27,6 @@ Originally developed as my Bachelor's Thesis in Mechanical Engineering at the **
 - 🤖 Development of two supervised Machine Learning models for CO₂ emissions and energy consumption prediction
 - 📈 Best predictive performance achieved with **Random Forest (R² = 0.963)** and **Ridge Regression (R² = 0.91)**
 - 🔬 End-to-end workflow including EDA, statistical diagnostics and model evaluation
-- 🌐 Cross-dataset compatibility analysis using **Our World in Data**, highlighting the importance of data harmonization before external validation
 - 🌱 Focus on sustainability, energy transition and climate analytics
 
 ---
@@ -71,15 +78,12 @@ Answering these questions can support:
 | Variables | 21 |
 | Secondary dataset | Our World in Data (OWID) |
 
-The dataset contains economic, demographic and energy-related indicators including:
+The dataset contains economic, demographic and energy-related indicators, including:
 
 - GDP per capita
-- Renewable electricity generation
-- Fossil fuel electricity generation
-- Nuclear electricity generation
+- Fossil fuel, Renewable and Nuclear electricity generation
 - Energy intensity
 - Access to electricity
-- CO₂ emissions
 - Primary energy consumption
 
 ---
@@ -105,7 +109,6 @@ The project follows a complete end-to-end Data Science workflow.
 
 - Data inspection
 - Missing value treatment
-- Feature selection
 - Variable renaming
 - Consistency checks
 
@@ -114,7 +117,6 @@ The project follows a complete end-to-end Data Science workflow.
 - Univariate analysis
 - Outlier detection
 - Correlation analysis
-- Temporal analysis
 - Multicollinearity analysis (VIF)
 
 ## 3. Feature Engineering
@@ -155,8 +157,6 @@ Models were assessed using:
 - R² Score
 - Mean Absolute Error (MAE)
 - Root Mean Squared Error (RMSE)
-- Residual analysis
-- Feature importance
 - Breusch–Pagan test
 - Durbin–Watson statistic
 
@@ -289,7 +289,6 @@ The methodology presented in this project can be applied to:
 - Energy Policy
 - Environmental Consulting
 - Climate Risk Assessment
-- Predictive Analytics
 - Public Sector Decision Support
 
 ---
@@ -300,7 +299,7 @@ The methodology presented in this project can be applied to:
 - The primary dataset does not include potentially relevant variables such as energy prices, installed renewable capacity or infrastructure investment.
 - The study covers the period **2000–2019**, excluding the effects of the COVID-19 pandemic and subsequent changes in global energy markets.
 - Hyperparameter optimization was intentionally limited, prioritizing methodological comparison and model interpretability.
-- External validation could not be completed because the Kaggle and Our World in Data datasets use different definitions and scales for key variables, making direct comparison methodologically inappropriate.
+- External validation was not completed because the Kaggle and Our World in Data datasets use different definitions and scales for key variablese.
 
 ---
 
@@ -309,23 +308,10 @@ The methodology presented in this project can be applied to:
 Developments include:
 
 - [ ] Evaluate the trained models on harmonized external datasets to assess their robustness and generalization across different data sources.
-- [ ] Interactive Streamlit dashboard
-- [ ] REST API for model inference
-- [ ] Interactive Plotly visualizations
-- [ ] SHAP explainability analysis
+- [ ] Interactive dashboards and Plotly visualizations
 - [ ] Updated post-2020 dataset
 - [ ] Expanded feature engineering
 - [ ] Further hyperparameter optimization, especially for Random Forest
-
----
-
-# 🎓 About this Project
-
-This repository is based on my Bachelor's Thesis completed as part of the Mechanical Engineering degree at the **University of Malaga (Spain)**.
-
-The thesis was awarded a final grade of **9.0/10 (Excellent)** by a faculty examination committee composed of PhD academics.
-
-Rather than simply uploading the thesis document, this repository restructures the work into a professional, reproducible and continuously evolving Data Science project following software engineering and open-source best practices. 
 
 ---
 
