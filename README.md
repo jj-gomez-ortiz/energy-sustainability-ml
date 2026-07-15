@@ -191,23 +191,29 @@ Although direct validation was ultimately not feasible due to methodological dif
 ```text
 energy-sustainability-ml/
 │
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── .gitignore
+├── README.md                    # Project overview and documentation
+├── LICENSE                      # MIT License
+├── requirements.txt             # Python dependencies
+├── .gitignore                   # Files ignored by Git
 │
 ├── notebooks/
-│   └── energy_sustainability.ipynb
+│   ├── README.md
+│   ├── energy_sustainability_ml.ipynb
+│   └── generate_figures.ipynb
 │
 ├── images/
+│   ├── README.md
+│   ├── 01_dist_co2.png
+│   ├── ...
+│   └── 13_modelB_energy_actual_vs_pred.png
 │
 ├── docs/
-│   └── bachelor_thesis.pdf
+│   ├── README.md
+│   └── energy_sustainability_thesis.pdf
 │
 └── data/
-    └── dataset_information.md
+    └── README.md
 ```
-
 ---
 
 # 📷 Project Preview
