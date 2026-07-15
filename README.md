@@ -212,13 +212,65 @@ energy-sustainability-ml/
 
 # 📷 Project Preview
 
-The repository will progressively include key visualizations from the analysis, including:
+The following figures provide a visual overview of the exploratory data analysis and the Machine Learning models developed in this project.
 
-- Correlation heatmap
-- Global energy trends
-- Feature importance
-- Residual diagnostics
-- Prediction vs Actual values
+### Global Energy Trends
+
+<p align="center">
+  <img src="images/07_temporal_trends.png" width="750">
+</p>
+
+---
+
+### Correlation Matrix
+
+<p align="center">
+  <img src="images/06_correlation_matrix.png" width="750">
+</p>
+
+---
+
+### CO₂ Emissions Prediction (Model A)
+
+*Actual vs Predicted values using Ridge Regression.*
+
+<p align="center">
+  <img src="images/10_modelA_co2_actual_vs_pred.png" width="750">
+</p>
+
+---
+
+### Feature Importance — Model A
+
+*Relative importance of the predictors used to estimate CO₂ emissions.*
+
+<p align="center">
+  <img src="images/09_modelA_co2_importance.png" width="750">
+</p>
+
+---
+
+### Primary Energy Consumption Prediction (Model B)
+
+*Actual vs Predicted values using Random Forest.*
+
+<p align="center">
+  <img src="images/13_modelB_energy_actual_vs_pred.png" width="750">
+</p>
+
+---
+
+### Feature Importance — Model B
+
+*Relative importance of the predictors used to estimate primary energy consumption per capita.*
+
+<p align="center">
+  <img src="images/12_modelB_energy_importance.png" width="750">
+</p>
+
+---
+
+For the complete set of visualizations generated throughout the project, see the [`images/`](images/) directory.
 
 ---
 
